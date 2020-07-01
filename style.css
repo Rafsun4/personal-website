@@ -5,6 +5,12 @@
 
 .half-width img {
     width: 100%;
+    transition: all 1s;
+    box-shadow: 1px;
+}
+
+.half-width img:hover {
+    transform: scale(1.2)
 }
 
 body {
@@ -77,6 +83,11 @@ body {
 .half-width2 img{
     width: 80%;
     padding-left: 50px;
+    transition: all 1s;
+}
+
+.half-width2 img:hover {
+    transform: scale(1.2);
 }
 
 .biography {
@@ -109,6 +120,7 @@ body {
 .half-width img {
     width: 90%;
     margin-left: 20%;
+
 }
 
 .latest-work-area {
@@ -119,9 +131,9 @@ body {
 }
 
 .latest-work-area h1 {
-        text-align: center;
-        font-size: 40px;
-        padding: 70px 0px 70px 0px;
+    text-align: center;
+    font-size: 40px;
+    padding: 70px 0px 70px 0px;
 }
 
 /* Footer*/
@@ -171,6 +183,16 @@ h3 {
     padding-bottom: 20px;
     font-family: sans-serif;
     color: white;
+    transition: all 1s;
+}
+
+.contact-box:hover {
+    transform: scale(1.2);
+}
+
+.mail {
+    text-decoration: none;
+    Color: white;
 }
 
 #message {
